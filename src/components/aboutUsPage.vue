@@ -7,7 +7,3 @@
         name: "aboutUsPage"
     }
 </script>
-
-<style scoped>
-
-</style>

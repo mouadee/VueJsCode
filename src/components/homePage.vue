@@ -7,7 +7,3 @@
         name: "homePage"
     }
 </script>
-
-<style scoped>
-
-</style>

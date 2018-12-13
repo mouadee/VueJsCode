@@ -1,15 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import homePage from "./components/homePage";
-import aboutUsPage from "./components/aboutUsPage";
+import routes from './routes'
 
 Vue.use(VueRouter);
 const router = new VueRouter({
-    routes: [
-        {path: "/", component: homePage},
-        {path: "/about", component: aboutUsPage}
-    ],
+    routes: routes,
     mode: "history"
 })
 
